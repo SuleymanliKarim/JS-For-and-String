@@ -124,6 +124,24 @@ default : console.log("Bele reng  yoxdur")
                                                         default : console.log("Bele ay yoxdur!")
 
             }
+            
+            let z =4;
+            switch (z){
+                case 1:
+                    console.log("qish")
+                    break
+                    case 2:
+                        console.log("yay")
+                        break
+                        case 3:
+                            console.log("payiz")
+                            break
+                            case 4:
+                                console.log("YAY")
+                                break
+                        
+
+            }
         }
 {
     let n ="Pleas your enter first name"
@@ -145,3 +163,75 @@ for (let x of language) {
   console.log("language")
 }
 }
+
+{
+    let text = "Apple, Banana, Kiwi";
+    let part = text.slice(7,13);
+    console.log(part)
+    }
+    {
+        let text = "Apple, Banana, Kiwi";
+        let part = text.slice(7,13);
+        console.log(text)
+    }
+    {
+        let text = "Apple, Banana, Kiwi";
+        let part = text.slice(8,13);
+        console.log(part)
+    }
+
+    {
+        let text = "Salam!";
+let newText = text.replace("a", "d");
+console.log(newText)
+    }
+
+    {
+        let text = "Salam!";
+let newText = text.replace("l", "m");
+console.log(newText)
+    }
+    {
+        let text = "x";
+let padded = text.padStart(0,"76770");
+console.log(padded)
+    }
+
+    {
+        let text = "HELLO Backend";
+let char = text.charAt(9);
+console.log(char)
+    }
+
+    {
+        let text = "HELLO Front ";
+let char = text.charAt(12);
+console.log(text)
+    }
+
+    {
+        let text = "HELLO ";
+let char = text.charCodeAt(5);
+console.log(char)
+    }
+    {
+        let text = "HELLO WORLD";
+text[0] = "A";
+console.log("salam sagol")
+    }
+   
+
+    {
+        //! sorus
+        let text = "'Salam netersen sagol' ";
+let index = text.indexOf("Salam");
+console.log(index)
+    }
+    {
+
+        //? maragli
+        
+        let text = "Please locate where 'locate' occurs!";
+text.search(/locate/);
+console.log(text.search)
+    }
